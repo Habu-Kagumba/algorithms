@@ -15,3 +15,7 @@
 *.class
 *.log
 target/
+*.jar
+
+## Node ##
+node_modules/
