@@ -1,8 +1,8 @@
-package binary_search
+package binarysearch
 
 import "sort"
 
-func binary_search(list []int, target int) int {
+func binarySearch(list []int, target int) int {
 	sort.Ints(list)
 	low, high := list[0], list[len(list)-1]
 
